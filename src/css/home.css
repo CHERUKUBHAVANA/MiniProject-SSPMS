@@ -1,0 +1,18 @@
+.login-button, .register-button {
+    background-color: white;
+    color: #000080;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 20px;
+    cursor: pointer;
+    font-size: larger;
+    font-weight: bold;
+    width: fit-content;
+    text-decoration-line: none;
+    margin-left: 2rem;
+}
+.sspms{
+    color:white;
+    text-decoration: none;
+}

@@ -1,0 +1,26 @@
+.projects-container {
+    padding: 20px;
+  }
+  
+  .project-card {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-top: 20px;
+  }
+  .add-button{
+    background-color: green;
+    margin-top: 1rem;
+  }
+  Button{
+    margin-left: 10px;
+  }
+  .input-field {
+    width: 50%; 
+  }
+  h1{
+    text-align: center;
+    text-decoration: underline;
+    color:rgb(9, 9, 76)
+  }

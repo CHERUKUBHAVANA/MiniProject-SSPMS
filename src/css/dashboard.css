@@ -1,0 +1,31 @@
+.dashboard-container {
+    display: flex;
+    flex-direction: column;
+    width: auto; /* Adjust the width as needed */
+    margin-right: 1rem;
+    border-radius: 10px;
+    margin-top: 1rem;
+    background-color: rgb(192, 230, 248);
+    align-items: center;
+    height: 100vh;
+    margin-bottom: 2rem;
+  }
+   
+  .user-symbol-row {
+    margin-bottom: 20px; /* Adjust the margin as needed */
+  }
+  
+  .user-symbol {
+    width: 150px; /* Adjust the width as needed */
+    height: 150px; /* Adjust the height as needed */
+    border-radius: 50%;
+    object-fit: cover;
+    margin-top: 1rem;
+  }
+  
+  .dashboard-button {
+    margin-bottom: 10px; /* Adjust the margin as needed */
+    width: 15rem;
+    background-color: rgb(22, 22, 81);
+  }
+  

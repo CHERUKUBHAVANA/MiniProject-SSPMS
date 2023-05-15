@@ -1,0 +1,84 @@
+.resume-container{
+  margin-left:  2rem;
+  margin-right: 2rem;
+  margin-top: 3em;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  font-family: 'Times New Roman', Times, serif;
+  /* display: flex; */
+}
+.top{
+  height:10rem;
+  background-color: rgb(253, 245, 232);
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  display: flex;
+}
+.contact-info{
+  margin-top: auto;
+  align-self: flex-end;
+  margin-right: 4px;
+  color: black;
+  font-weight: bold;
+}
+.bottom{
+  display: flex;
+}
+.side-bar {
+  width: 33.33%;
+  background-color: #4f4d4d;
+  color: white;
+  height: 200vh;
+}
+
+.main-content {
+  width: 66.67%;
+  background-color: #ddeefe;
+  height: 200vh;
+}
+.student-name{
+  margin-left: 1rem;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: left;
+}
+h2{
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  margin: 1rem;
+  font-size: 20px;
+}
+h3{
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  margin: 1rem;
+  font-size: 16px;
+}
+p{
+  margin-left: 10px;
+}
+.download-button{
+  position: absolute;
+  width:fit-content;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 2px solid black;
+  border-radius: 4px;
+  background-color: white;
+  color: #000080;
+  font-weight: bold;
+  padding: 4px;
+  top: 0;
+  right: 2rem;
+}
+.download-button:hover{
+  border:2px solid white
+}
+.education p,.skills p{
+  margin-bottom: 0px;
+}
